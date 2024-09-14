@@ -1,0 +1,84 @@
+/* CSS Styles for Calculator Section. */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url('../images/bg.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.cal-time{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   width: 70%;
+    margin: 0 auto;
+    padding-top: 8%;
+    padding-bottom: 5%;
+}
+
+table{
+    border: 1px solid;
+    border-collapse: collapse;
+    background-color: black;
+    box-shadow: rgba(0, 0, 0, 0.1) 0 20px 50px;
+}
+
+td{
+    color: rgba(92, 92, 92, 0.3);
+    border: 1px solid #191919;
+    text-align: center;
+}
+
+input[type="button"]{
+    color: #f1f1f1;
+    background-color: rgba(92, 92, 92, 0.1);
+    width: 85px;
+    height: 65px;
+    border: none;
+    font-size: 2rem;
+    font-weight: 700;
+    cursor: pointer;
+    transition: 0.5s ease-in-out;
+}
+
+input[type="button"]:hover{
+    outline: none;
+    background-color: slateblue;
+}
+
+input[type="text"]{
+    width: 320px;
+    height: 70px;
+    margin: 1.3rem;
+    padding: 5px;
+    font-size: 1.8rem;
+    border: none !important;
+    outline: none !important;
+}
+
+/* CSS Styles for Time Content. */
+
+.my-watch{
+    background-color: aquamarine;
+    padding: 50px;
+    border-radius: 1rem;
+    box-shadow:rgba(0, 0, 0, 0.3) 0px 10px 20px;
+    text-align: center;
+}
+
+.my-watch:hover{
+    cursor: pointer;
+    background-color: silver;
+}
+
+span{
+    font-size: 2.1rem;
+    font-weight: 800;
+}

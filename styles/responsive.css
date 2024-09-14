@@ -1,0 +1,19 @@
+/* Responsive for Mobile Screen */
+
+@media screen and (max-width: 576px){
+   .cal-time{
+    width: 100%;
+    flex-direction: column-reverse;
+    justify-content: center;
+}
+
+.my-watch{
+    padding: 35px;
+    margin-bottom: 20%;
+    box-shadow: none;
+   }
+
+   span{
+    font-size: 1.8rem;
+   }
+}
